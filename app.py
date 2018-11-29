@@ -71,8 +71,8 @@ def dog_breeds():
     a list of all dog breeds is returned. Try this in your browser! (Chrome/firefox)
 
     Using the `requests` library (as shown in the slides)
-    Do a GET request to the link above to get all dog breeds and return them
-    to them as a list to the user as a bullet pointed list
+    Do a GET request to the link above to get all of the dog breeds and return them
+    as a list to the user and show them in the html page as a bullet pointed list.
     """
     return render_template('dogs.html')
 
