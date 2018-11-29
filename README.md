@@ -16,14 +16,14 @@ Change the `/movie`function (in app.py). Look at the `json_string` variable chan
 Change the `/tv_shows` function and use the `json_string` variable to show now a list of the tv shows (you will have to change it from a JSON string to python dict like you did before). Visiting http://127.0.0.1:5000/tv_shows should show you a list of TV shows that have name, language, and genres for the show
 
 ## Part 2: Calling your first APIs!
-The documentation for thefirst API you will be working with can be found here: https://dog.ceo/dog-api/documentation/
+The documentation for the first API you will be working with can be found here: https://dog.ceo/dog-api/documentation/
 
 If you visit https://dog.ceo/api/breeds/list/all 
 a list of all dog breeds is returned. Try this in your browser! (Chrome/firefox)
 
 Using the `requests` library (as shown in the slides)
-Do a GET request to the link above to get all dog breeds and return them
-to them as a list to the user as a bullet pointed list
+Do a GET request to the link above to get all of the dog breeds and return them
+as a list to the user and show them in the html page as a bullet pointed list.
 
 ### **Bonus:**
 Calling https://dog.ceo/api/breed/BREED_NAME_HERE_INSTEAD/images/random
